@@ -1,0 +1,5 @@
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain\bin\Debug\Adm.Subscribe.Domain.dll
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain\bin\Debug\Adm.Subscribe.Domain.pdb
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain\obj\Debug\Adm.Subscribe.Domain.csprojResolveAssemblyReference.cache
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain\obj\Debug\Adm.Subscribe.Domain.dll
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain\obj\Debug\Adm.Subscribe.Domain.pdb

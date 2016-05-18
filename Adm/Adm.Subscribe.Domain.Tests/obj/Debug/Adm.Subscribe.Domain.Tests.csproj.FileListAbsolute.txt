@@ -1,0 +1,7 @@
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\obj\Debug\Adm.Subscribe.Domain.Tests.csprojResolveAssemblyReference.cache
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\bin\Debug\Adm.Subscribe.Domain.Tests.dll
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\bin\Debug\Adm.Subscribe.Domain.Tests.pdb
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\bin\Debug\Adm.Subscribe.Domain.dll
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\bin\Debug\Adm.Subscribe.Domain.pdb
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\obj\Debug\Adm.Subscribe.Domain.Tests.dll
+c:\users\arthur\documents\visual studio 2015\Projects\Adm\Adm.Subscribe.Domain.Tests\obj\Debug\Adm.Subscribe.Domain.Tests.pdb

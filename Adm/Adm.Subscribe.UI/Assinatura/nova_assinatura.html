@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Nova Assinatura</title>
+    <meta charset="utf-8" />
+    <link href="../lib/css/bootstrap.css" rel="stylesheet" />
+    <link href="../lib/css/adm.css" rel="stylesheet" />
+    <link href="nova_assinatura.css" rel="stylesheet" />
+    <script src="../lib/js/angular.min.js"></script>
+    <script src="assinatura.js"></script>
+</head>
+<body ng-app="assinaturaApp">
+    <div ng-controller="assinaturaCtrl">
+        <section class="container">
+            <section>
+                <h1 class="center">Contrate agora!</h1>
+                <h4 class="description">1) Selecione os módulos que deseja contratar e monte o valor da sua mensalidade</h4>
+            </section>
+            <hr />
+            <section class="row">
+                <div class="itens" ng-repeat="produto in produtos">
+                    <div class="item">
+                        <button type="button" class="btn btn-primary" id="btnAddItem" ng-click="adicionarModulo({{produto}})">
+                            <span class="glyphicon glyphicon-plus"></span>
+                        </button>
+                        <button type="button" class="btn btn-primary" id="btnRemoveItem" style="display: none;">
+                            <span class="glyphicon glyphicon-minus"></span>
+                        </button>
+
+                        <label class="text-primary">{{produto.Nome}}</label>
+                        <hr/>
+                        <label>R$ {{produto.Valor}}</label>
+                        <br/>
+                        <p class="descricao">{{produto.Descricao}}</p>
+                    </div>
+                </div>
+            </section>
+            {{assinatura}}
+            {{totalAssinatura}}
+            <div class="row">
+                <h4 class="description">2) Selecione a modalidade </h4>
+            </div>
+            <hr />
+            <div class="modalidades" ng-disabled="totalAssinatura == 0">
+                <div ng-repeat="modalidade in modalidadesDeAssinatura">
+                    <div class="modalidade">
+                        <input type="radio" name="tipoModalidade" ng-change='selecionarModalidade()' ng-model="value" /><div class="text-primary tipoModalidade"> {{modalidade.Tipo}}</div>
+                        <p class="description">R$ {{totalAssinatura}} a cada {{modalidade.Intervalo}} mes(es)</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <h3>Bot</h3>
+        </section>
+    </div>
+</body>
+</html>

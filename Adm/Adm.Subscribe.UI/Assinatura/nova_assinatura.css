@@ -1,0 +1,58 @@
+﻿body{
+    background-color: #e6e6fa;
+}
+
+.container{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    height: 900px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+ 
+.itens {
+    width: 100%;
+}
+
+.item {
+    width: 30%;
+    height: 180px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #337ab7;
+    float: left;
+}
+
+.descricao {
+    color: #337ab7;
+}
+
+.modalidades {
+    width: 100%;
+}
+
+.modalidade {
+    width: 30%;
+    height: 120px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #a9a9a9;
+    float: left;
+}
+
+
+
+
+.tipoModalidade{
+    font-size: 20pt;
+    color: #000000;
+}
+
+.tipoModalidade .active {
+    color: #337ab7;
+    border: 1px solid #a9a9a9;
+}
+   
