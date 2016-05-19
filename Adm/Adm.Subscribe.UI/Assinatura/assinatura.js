@@ -5,7 +5,11 @@ app.controller('assinaturaCtrl', function($scope, $http) {
     var produtos = [];
     $scope.modalidadesDeAssinatura = ["Mensal", "Semestral", "Anual"];
     $scope.totalAssinatura = 0;
-    $scope.assinatura = [];
+    $scope.assinatura = {
+        Modulos : $scope.produtos,
+        Modalidade: "Nenhuma",
+        Valor : 0.00
+    };
 
     //Métodos
     var carregarProdutos = function() {
@@ -57,12 +61,27 @@ app.controller('assinaturaCtrl', function($scope, $http) {
             }
         ];
     };
-
-    var selecionarModalidade = function () {
-        var input = $("input[type='radio'][name='tipoModalidade']:checked");
-        input.addClass("active");
-   
+    var resetarTipoModalidade = function() {
+        $('input[name="tipoModalidade"]').attr('checked', false);
+        $("input[type='radio'][name='tipoModalidade']").closest('[data-type]').removeClass('active');
     };
+
+
+    var resetarFormulario = function () {
+        resetarTipoModalidade();
+        carregarProdutos();
+        carregarModalidadesDeAssinatura();
+    };
+
+    
+
+    $scope.selecionarModalidade = function () {
+        $("input[type='radio'][name='tipoModalidade']").closest('[data-type]').removeClass('active');
+
+        var divSelecionada = $("input[type='radio'][name='tipoModalidade']:checked").closest('[data-type]');
+        divSelecionada.addClass('active');
+    };
+
 
     var adicionarModulo = function (modulo) {
         $scope.assinatura += { name: "ok" };
@@ -73,9 +92,7 @@ app.controller('assinaturaCtrl', function($scope, $http) {
         //});
     };
 
-    // Inicialização
-    carregarProdutos();
-    carregarModalidadesDeAssinatura();
+    resetarFormulario();
 
 
 })

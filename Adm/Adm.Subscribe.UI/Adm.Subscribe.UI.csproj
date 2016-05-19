@@ -69,6 +69,7 @@
     <Content Include="Assinatura\assinatura.js" />
     <Content Include="lib\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="lib\js\bootstrap.js" />
+    <Content Include="lib\js\jquery-2.2.3.min.js" />
     <Content Include="packages.config" />
     <Content Include="lib\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="lib\fonts\glyphicons-halflings-regular.ttf" />

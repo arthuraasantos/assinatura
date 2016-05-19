@@ -18,3 +18,23 @@ C:\Users\Arthur\Documents\Visual Studio 2015\Projects\Adm\Adm.Subscribe.UI\bin\M
 C:\Users\Arthur\Documents\Visual Studio 2015\Projects\Adm\Adm.Subscribe.UI\obj\Debug\Adm.Subscribe.UI.csprojResolveAssemblyReference.cache
 C:\Users\Arthur\Documents\Visual Studio 2015\Projects\Adm\Adm.Subscribe.UI\obj\Debug\Adm.Subscribe.UI.dll
 C:\Users\Arthur\Documents\Visual Studio 2015\Projects\Adm\Adm.Subscribe.UI\obj\Debug\Adm.Subscribe.UI.pdb
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\csc.exe
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\System.Collections.Immutable.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\System.Reflection.Metadata.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\vbc.exe
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\VBCSCompiler.exe
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\roslyn\VBCSCompiler.exe.config
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\Adm.Subscribe.UI.dll.config
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\Adm.Subscribe.UI.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\Adm.Subscribe.UI.pdb
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\obj\Debug\Adm.Subscribe.UI.csprojResolveAssemblyReference.cache
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\obj\Debug\Adm.Subscribe.UI.dll
+C:\git\assinatura\assinatura\Adm\Adm.Subscribe.UI\obj\Debug\Adm.Subscribe.UI.pdb
